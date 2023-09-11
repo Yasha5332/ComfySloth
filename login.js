@@ -36,7 +36,7 @@ form.addEventListener('submit', e => {
             setSuccess(email);
             setSuccess(password);
 
-            location.href = "Presentation.html";
+            location.href = "index.html";
 
             localStorage.setItem("loginUser",JSON.stringify({name:findUser.name,email:findUser.email,status:true}));
 

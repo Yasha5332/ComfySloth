@@ -45,7 +45,7 @@ form.addEventListener('submit', e => {
         },1000);
 
 
-        location.href="Presentation.html";
+        location.href="index.html";
 
     }
 
